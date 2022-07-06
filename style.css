@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: teal;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 200px;
+    margin: 100px auto;
+}
+
+input{
+    padding: 10px;
+    outline: none;
+}
+
+#submit{
+    color: white;
+    background-color: blue;
+    border: none;
+    cursor: pointer;
+}
